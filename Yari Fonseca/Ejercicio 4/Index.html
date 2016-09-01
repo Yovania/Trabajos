@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+	<meta charset="UTF-8">
+	<title>	Ejercicio 4</title>
+</head>
+<body>
+<h2>Conversiones</h2>
+<form  action="medidas.php" method="post">
+
+<label for="cantidad">cantidad</label>
+ <input name="cantidad" id="cantidad" type="text"required onkeypress=""  class="validate">
+ <br>
+ 
+
+ <label>convertir</label>
+  <select name="medicion" multiple>
+  <option value=""disabled selected>Seleccione la medida de conversion</option>
+      <option value="1">Kilometros</option>
+      <option value="2">Metros</option>
+      <option value="3">Pulgadas</option>
+      <option value="4">Centimetros</option>
+      </select>
+
+      <button type="submit">Enviar </button>
+ 
+</form>
+</body>
+</html>
